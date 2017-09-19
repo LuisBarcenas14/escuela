@@ -1,0 +1,29 @@
+Jessica's clothes
+
+Jessica es una adolescente y le importa mucho la opinión de sus compañeras de la escuela, por lo cual una de sus prioridades es que no la vean con el mismo conjunto de ropa (blusa, pantalon/falda y zapatos), por lo cual ella organiza toda su ropa y ve cuales son las posibles combinaciones de ropa que tiene.
+
+Jessica tiene una constumbre un poco peculiar y es el de dar un sobrenombre a cada una de sus prendas, nunca poninendo el mismo sobrenombre a dos prendas, asi mismo anota cada prenda en una lista para asi ver el número de posbiles combinaciones.
+
+Jessica es un poco torpe por lo cual en ocasiones se equivoca en separar las prendas anotadas con las prendas no anotadas, por lo que tiende a anotar más de una vez la misma prenda. Por eso ella necesita de tu ayuda para no equivocarse.
+
+Entrada
+Consiste en una caso de entrada, dividido en tres partes la primera parte enlistara los sobrenombres de blusas, la palabra FIN dara fin a cada lista, lo mismo se aplicara para pantalones/faldas y zapatos.
+
+Salida
+El número de combinaciones posibles que Jessica tiene para elegir.
+
+Input
+red
+yellow
+blue
+FIN
+gray
+blue
+black
+FIN
+white
+purple
+FIN
+
+output
+18

@@ -1,0 +1,25 @@
+%
+ cura_enfer(Enfermedad,Medicina):-sintoma(Sintoma,Enfermedad),cura_sintoma(Medicina,Sintoma).
+%hay 2 variables que empiezan con mayuzculas
+%enfermedad va buscar un sintoma para buscar que medicina cura ese sintoma
+%hay 2 variables medicina y como son las mismas me va regresar el valo de medicica
+
+%
+% La regla debetomarmedicina indica que la variable Perro es el nombre
+% del perro y que le corresponde de acuerdo a la curaEnf(cura de la
+% enfermedad) que Medicina tomar el resultado de la prueva debe dar
+% true.
+%
+ tomarMedicina(Perro,Medicina):- es_perroenfermo(Perro,Enfermedad),cura_enfer(Enfermedad,Medicina).
+
+ alg_enfermedadcompartida(PERR1,PERR2,ENF):-es_perroenfermo(PERR1,ENF);es_perroenfermo(PERR2,ENF).
+ %siempre van hacer los mismos nombres  (choco,andrey,paru..) lo que hace es qe  pregunta si perro 1 y 2 tiene una enfermdad al 
+ %menos que una de los 2 lo tenga va dar verdadero  
+
+ 
+compartensintoma(Perro1,Perro2,Sintoma):-
+	es_perroenfermo(Perro1,EnfermedadA),es_perroenfermo(Perro2,EnfermedadB),not(Perro1= Perro2),
+	sintoma(Sintoma,EnfermedadA),sintoma(Sintoma,EnfermedadB).
+%que enfermedd tiene cada perro perro 1 y perro 2 
+%ya qe tengo las 2 efermedades 
+%regresa sintoma

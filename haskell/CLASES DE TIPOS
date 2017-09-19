@@ -1,0 +1,32 @@
+CLASES DE TIPOS 
+
+-Representan cierto comportamiento ó caracteristica de un tipo
+
+-Idea similar a la interface en Java.
+
+Eq
+
+ORD
+
+Show (tipos que pueden ser mostrados como string)
+
+Read (tipos que pueden convertirse de sting a un tipo determinado)
+
+Ej.
+read "5"::Int
+
+ENUM
+
+pred
+
+BOUNDED
+
+Tipos que tienen limites inferior y superior.
+
+NUM
+
+-Clase que contiene a todos los tipos númericos, valores con los que se pueden realizar operaciones.
+
+LISTAS
+
+let

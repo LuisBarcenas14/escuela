@@ -1,0 +1,5 @@
+Juana Alvarado,100
+Pedro Lamadrid,70,25,90
+Aurelio Cervantes,90,100,78
+Mario Sanabria,89,97,70
+Ariana Casas,65,90,76,90
